@@ -54,7 +54,7 @@ public class IsoscelesTest {
 	 */
 	@Test
 	public final void testPerimeter() {
-		assertEquals(100.0, isosceles.perimeter(), 1.0e-4);
+		assertEquals(30.0, isosceles.perimeter(), 1.0e-4);
 	}
 
 	/**

@@ -53,7 +53,7 @@ public class SquareTest {
 	 */
 	@Test
 	public final void testPerimeter() {
-		assertEquals(100.0, square.perimeter(), 1.0e-4);
+		assertEquals(40.0, square.perimeter(), 1.0e-4);
 	}
 
 	/**
@@ -61,7 +61,7 @@ public class SquareTest {
 	 */
 	@Test
 	public final void testArea() {
-		assertEquals(50.0, square.area(), 1.0e-4);
+		assertEquals(100.0, square.area(), 1.0e-4);
 	}
 
 }
