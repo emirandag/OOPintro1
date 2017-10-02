@@ -11,6 +11,9 @@ public abstract class Triangle extends FigureImpl {
 
 	protected double base;
 	protected double height;
+	protected double side1;
+	protected double side2;
+	
 	/* (non-Javadoc)
 	 * @see org.escoladeltreball.oopintro1.Figure#perimeter()
 	 */
@@ -19,10 +22,13 @@ public abstract class Triangle extends FigureImpl {
 	/**
 	 * @param base
 	 * @param height
+	 * @param side1
+	 * @param side2
 	 */
 	public Triangle(double base, double height) {
 		this.base = base;
 		this.height = height;
+		
 	}
 	
 	@Override
