@@ -37,7 +37,7 @@ public class EscalenoTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		escaleno = new Escaleno (5, 10, 4, 3);
+		escaleno = new Escaleno (4, 3, 5, 10);
 	}
 
 	/**

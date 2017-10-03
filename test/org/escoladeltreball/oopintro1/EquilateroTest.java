@@ -38,7 +38,7 @@ public class EquilateroTest {
 	@Before
 	public void setUp() throws Exception {
 		
-		equilatero = new Equilatero (8, 6.93, 8, 8);
+		equilatero = new Equilatero (8, 8, 8, 6.93);
 	}
 
 	/**

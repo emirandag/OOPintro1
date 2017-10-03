@@ -37,7 +37,7 @@ public class IsoscelesTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		isosceles = new Isosceles (6, 4, 5, 5);
+		isosceles = new Isosceles (5, 5, 6, 4);
 	}
 	
 
