@@ -38,7 +38,7 @@ public class EquilateroTest {
 	@Before
 	public void setUp() throws Exception {
 		
-		equilatero = new Equilatero (10, 10);
+		equilatero = new Equilatero (8, 6.93, 8, 8);
 	}
 
 	/**
@@ -54,7 +54,7 @@ public class EquilateroTest {
 	 */
 	@Test
 	public final void testPerimeter() {
-		assertEquals(30.0, equilatero.perimeter(), 1.0e-4);
+		assertEquals(24.0, equilatero.perimeter(), 1.0e-4);
 	}
 
 	/**
@@ -62,7 +62,7 @@ public class EquilateroTest {
 	 */
 	@Test
 	public final void testArea() {
-		assertEquals(50.0, equilatero.area(), 1.0e-4);
+		assertEquals(27.72, equilatero.area(), 1.0e-4);
 	}
 
 }
